@@ -1,11 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif;
-*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -44,13 +39,6 @@ header {
 }
 
 
-
-
-/* .fetured-section img {
-    width: 288px;
-    height: 243px;
-} */
-
 .bike-1 {
     filter: grayscale(100%);
 }
@@ -69,19 +57,18 @@ header {
     font-size: 14px;
     color: #E76F51;
 }
-.fa-hand-point-up{
+
+.fa-hand-point-up {
     font-size: 50px;
     color: red;
 }
 
-
-.global-title{
+.global-title {
     font-weight: 600;
     font-size: 48px;
 }
 
-
-.search-by-brand .brand{
+.search-by-brand .brand {
     border: 1px solid rgb(238, 236, 236);
     text-align: center;
     padding: 20px 0;
@@ -109,11 +96,10 @@ header {
 .frequently-asked-question {
     font-family: 'Inter', sans-serif;
 }
-.fa-star{
+
+.fa-star {
     color: #E76F51;
 }
-
-
 
 footer {
     background-color: black;
@@ -133,7 +119,6 @@ footer {
 .copyright {
     color: #D9DBE1;
     font-size: 14px;
-    padding-left: 45px;
 }
 
 .get-app {
@@ -147,4 +132,27 @@ footer {
     color: black;
     font-weight: 600;
     font-size: 14px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.accordion-item,
+.accordion-button {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.get-app {
+    width: 135px;
+}
+
+footer a {
+    transition: .3s;
+}
+
+footer a:hover {
+    color: #E76F51;
 }
