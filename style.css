@@ -1,0 +1,150 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #264653;
+}
+
+.header-first-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.header-small-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.header-large-title {
+    font-weight: 300;
+    font-size: 16px;
+    color: #E0E0E0;
+}
+
+.purchase-btn {
+    background-color: #E76F51;
+    color: white;
+}
+
+.purchase-btn:hover {
+    color: white;
+}
+
+
+
+
+/* .fetured-section img {
+    width: 288px;
+    height: 243px;
+} */
+
+.bike-1 {
+    filter: grayscale(100%);
+}
+
+.bike-3 {
+    filter: grayscale(100%);
+}
+
+.fetured-section-title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.fetured-mini-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+}
+.fa-hand-point-up{
+    font-size: 50px;
+    color: red;
+}
+
+
+.global-title{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+
+.search-by-brand .brand{
+    border: 1px solid rgb(238, 236, 236);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.client-occupation {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.client-3 {
+    border-radius: 50%;
+
+}
+
+.happy-section-title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.client {
+    color: #E76F51;
+}
+
+.frequently-asked-question {
+    font-family: 'Inter', sans-serif;
+}
+.fa-star{
+    color: #E76F51;
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menu li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.copyright {
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-left: 45px;
+}
+
+.get-app {
+    font-weight: 500;
+    font-size: 18px;
+    color: #D9DBE1;
+}
+
+.global-collection a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
